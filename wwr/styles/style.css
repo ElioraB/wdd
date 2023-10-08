@@ -13,6 +13,9 @@
           div.b {
             text-align: left;
         }
+        .buttons {
+            background-color: aqua;
+        }
           
           div.c {
             text-align: right;
