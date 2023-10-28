@@ -98,10 +98,10 @@
             color: #fcfbfb;
             text-decoration: none;
             padding: 25px;
+            text-align: center;
         }
         nav {
             font-size: larger;
-            text-align: left;
         }
         h2 {
             font-family: 'Luckiest Guy', 'Permanent Marker', 'Anton';
