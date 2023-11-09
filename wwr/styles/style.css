@@ -120,6 +120,7 @@
             display: flex;
             justify-content: space-around;
             align-items: center;
+            max-width: 1600px;
         }
         footer a {
             text-decoration: none;
@@ -190,6 +191,33 @@
             box-shadow: 5px 5px 10px #6f7364;
             width: 100%;
         }
+        .faq-grid {
+            display: grid;
+            grid-template-rows: auto;
+            grid-template-columns: auto;
+            max-width: 800px;
+            margin: 200px auto 0;
+            background-color: #ffffffb0;
+        }
+        div.question {
+            font-family: 'Luckiest Guy', 'Permanent Marker', 'Anton';
+            margin: 20px;
+            color: #393018;
+        }
+        div.answer {
+            font-size: .8em;
+            padding: 15px;
+            color: black;
+        }
+        body.subpg {
+            background-attachment: fixed;
+            background-image: url("../images/hero.png");
+            background-repeat: no-repeat;
+            background-size: 1600px;
+            background-position: center;
+            
+        }
+        
 
         @media screen and (max-width: 900px) {
             #hero, .home-grid {
