@@ -1,21 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Unna&Permanent+Marker:ital,wght@0,400;0,700;1,400&display=swap');
-
+@import url('https://fonts.google.com/specimen/Roboto+Condensed');
     
-        #content {
-            max-width: 1600px;
-            margin: auto;
-        }
+        
         main {
             max-width: 1600px;
             text-align: center;
             margin: auto;
         }
-        
+        .home-grid {
+            max-width: 1600px;
+            margin: auto;
+        }
         header {
-            /* background-color:#D16100; */
-            font-family: 'Luckiest Guy', 'Permanent Marker', 'Anton';
-            display: grid;
-            grid-template-columns: 150px auto;
+        }
+        h1 {
+        }
+        h2 {
+        }
+        p {
+        }
+        img {
+            max-width: 1600px;
+            margin: auto;
         }
 
         @media screen and (max-width: 900px) {
