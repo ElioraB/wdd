@@ -5,37 +5,44 @@
     <title>Home</title>
     <link type="text/css" rel="stylesheet" href="styles/site.css" />
   </head>
-  <main class="Home-grid">
-    <div id="content">
-      <header>
-        <a href="index.html" id="logo_link">
+  <body class="Home-grid">
+    <header class="page-top">
+      <nav>
+        <a href="index.html" class="logo_link">
           <img
-            class="logo"
+            class="Logo"
             src="images/Image 9-18-23 at 4.51 PM.jpg"
             alt="Scarlett Logo"
           />
         </a>
-        <nav>
-          <a href="index.html">Home</a>
-          <a href="subpage-rafting-site.html">Mexico</a>
-          <a href="site-plan-rafting.html">Washington</a>
-          <a href="contactus.html">Contact Us</a>
-        </nav>
-      </header>
-      <div id="hero">
-        <section id="hero-msg">
-          <header class="home-title">My Favorite Vacation</header>
-        </section>
-      </div>
-      <main>
-        <h1>Washington</h1>
-        <p>Port Townsend, Family Reunion</p>
-        <img src="images/Port-townsend.webp" alt="Port Townsend" />
-        <h1>Mexico</h1>
-        <p>Conzumel, Costa Maya, Honduras</p>
-        <img src="images/roatan.jpg" alt="Roatan" />
-        <header>With Additional People :)</header>
-        <img src="images/TramWA.jpeg" alt="Tram Ride" />
+        <a class="home" href="index.html">Home</a>
+        <a class="mexico" href="subpage-rafting-site.html">Mexico</a>
+        <a class="wa" href="site-plan-rafting.html">Washington</a>
+        <a class="contact" href="contactus.html">Contact Us</a>
+      </nav>
+    </header>
+    <main>
+      <section class="image-banner primary-banner">
+        <img src="images/BeachMexico.jpeg" alt="Beach Mexico">
+        <h1>My Favorite Vacations</h1>
+      </section>
+      <section class="split-section">
+        <div class="title-section left-side">
+          <title>Washington</title>
+          <div class="location-description">Port Townsend, Family Reunion</div>
+        </div>
+        <div class="title-section right-side">
+          <title>Mexico</title>
+          <div class="location-description">Cozumel, Costa Maya, Roatan</div>
+        </div>
+        <img class="vacation-img left-side" src="images/Port-townsend.webp" alt="Port Townsend">
+        <img class="vacation-img right-side" src="images/roatan.jpg" alt="Roatan">
+      </section>
+      <section class="image-banner additional-people">
+        <img src="images/TramWA.jpeg" alt="WA tram">
+        <h1>With Additional People :)</h1>
+      </section>
+      <section class="text-content">
         <h2>Why Here?</h2>
         <p>
           Those who view my site will get to see pictures and read stories about
@@ -47,11 +54,12 @@
           feature only things that occured on that specific trip so that there's
           no confusion.
         </p>
-      </main>
-      <footer>
-        <p>Soaring Scarlett &copy; Marlene Brinkle - 2023</p>
-        </div>
-      </footer>
-    </div>
-  </main>
+      </section>
+    </main>
+    <footer>
+      <p>Soaring Scarlett &copy; Marlene Brinkle  2023</p>
+    </footer>
+      </main> 
+
+  </body>
 </html>

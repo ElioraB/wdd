@@ -1,29 +1,185 @@
 @import url('https://fonts.google.com/specimen/Roboto+Condensed');
     
         
-        main {
-            max-width: 1600px;
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'roboto condensed';
+            font-size: 18px;
+        }
+        body > main {
+            padding: 20px;
+        }
+        body > main > section {
+            margin-bottom: 25px;
+        }
+        section.image-banner {
+            display: grid;
+        }
+        section.image-banner h1 {
+            font-size: 4em;
+            margin: 20px;
+            grid-row: 1;
+            grid-column: 1;
             text-align: center;
-            margin: auto;
+            color: #4a0a10;
+            padding-top: 150px;
         }
+        section.image-banner img {
+            grid-row: 1;
+            grid-column: 1;
+            width: 100%;
+        }
+        .vacation-img {
+            width: 100%;
+            box-shadow: 10px 10px 5px gray;
+        }
+        section.split-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto auto;
+            gap: 30px;
+        }
+        section.split-section title {
+            display: block;
+            margin-bottom: .5em;
+        }
+        section.split-section div.left-side {
+            text-align: right;
+        }
+        section.split-section div.right-side {
+            text-align: left;
+        }
+        .title-section title {
+            font-weight: bold;
+            font-size: 1.5em;
+        }
+        .text-content {
+            text-align: center;
+            margin: auto 15% auto 15%;
+        }
+        footer {
+            display: block;
+            background-color: #ee8a8f;
+            margin: auto auto auto 0px;
+            padding: 1em 79% 1em 1em;
+            font-size: larger;
+        }
+        .page-top {
+            display: grid;
+            /* grid-template-columns: 100px 1fr 1fr 1fr 1fr; */
+            background-color: #ee8a8f;
+            padding: 2em;
+            padding-left: 20px;
+        }
+        .Logo {
+            grid-column: 1/2;
+            width: 100%;
+        }
+        nav {
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.5em;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        }
+        a.home {
+            grid-column: 2/3;
+            text-decoration: none;
+            align-self: center;
+            color: white;
+        }
+        a.mexico {
+            grid-column: 3/4;
+            text-decoration: none;
+            align-self: center;
+            color: white;
+        }
+        a.wa {
+            grid-column: 4/5;
+            text-decoration: none;
+            align-self: center;
+            color: white;
+        }
+        a.contact {
+            grid-column: 5/6;
+            text-decoration: none;
+            align-self: center;
+            color: white;
+        }
+        .Home-grid {
+            display: grid;
+        }
+
+
+
+/* 
         .home-grid {
-            max-width: 1600px;
             margin: auto;
         }
-        header {
-        }
-        h1 {
-        }
-        h2 {
-        }
-        p {
+        .page-top {
+            display: grid;
+            grid-template-columns: 150px auto;
         }
         img {
             max-width: 1600px;
             margin: auto;
         }
+        .Vacation {
+            height: 800px;
+            background-image: url("../images/BeachMexico.jpeg");
+            background-size: 100%;
+            text-align: center;
+            margin: auto;
+            padding-top: 90px;
+            background-repeat: no-repeat;
+        }
+        .home-title {
+            font-size: 75px;
+            color: white;
+        }
+        .home-square {
+            width: 1600px;
+            display: grid;
+            grid-template-rows: 90px 1fr;
+            grid-template-columns: 1fr 1fr;
+            margin-bottom: 20px;
+        }
+        .home-wa {
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+        .home-mex {
+            grid-column: 2/3;
+            grid-row: 1/2;
+        }
+        .Port-townsend {
+            width: 80%;
+            grid-row: 2/3;
+            grid-column: 1/2;
+            border: 5px solid #ee8a8f;
+        }
+        .Roatan {
+            width: 80%;
+            grid-row: 2/3;
+            grid-column: 2/3;
+            border: 5px solid #ee8a8f;
+        }
+        .tram {
+            height: 800px;
+            background-image: url("../images/TramWA.jpeg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100%;
+            text-align: right;
+            margin: 0;
+        }
+        .tram-ride {
+            font-size: 75px;
+            color: white;
+        } */
 
-        @media screen and (max-width: 900px) {
+        /* @media screen and (max-width: 900px) {
             #hero, .home-grid {
                 display: block;
                 height: auto;
@@ -51,7 +207,7 @@
             /* .rivers-card, .camping-card, .rapids-card { 
                 margin: 50px auto;
                 width: 60%;
-            } */
+            } 
             #background {
                 display: none;
             }
@@ -65,4 +221,4 @@
             }
         }
 
-    
+     */
