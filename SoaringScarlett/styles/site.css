@@ -9,6 +9,7 @@
         }
         body > main {
             padding: 20px;
+            margin: 5em;
         }
         body > main > section {
             margin-bottom: 25px;
@@ -66,22 +67,26 @@
             font-size: larger;
         }
         .page-top {
-            display: grid;
-            /* grid-template-columns: 100px 1fr 1fr 1fr 1fr; */
+            
             background-color: #ee8a8f;
-            padding: 2em;
+            height: 126px;
             padding-left: 20px;
         }
         .Logo {
             grid-column: 1/2;
-            width: 100%;
+            width: 520px;
+            margin-top: 3px;
         }
         nav {
             text-align: center;
             text-decoration: none;
             font-size: 1.5em;
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 520px 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr;
+            margin: 0;
+            height: 100%;
+            align-items: center;
         }
         a.home {
             grid-column: 2/3;
@@ -107,118 +112,16 @@
             align-self: center;
             color: white;
         }
-        .Home-grid {
-            display: grid;
-        }
-
-
-
-/* 
-        .home-grid {
-            margin: auto;
-        }
-        .page-top {
-            display: grid;
-            grid-template-columns: 150px auto;
-        }
-        img {
-            max-width: 1600px;
-            margin: auto;
-        }
-        .Vacation {
-            height: 800px;
-            background-image: url("../images/BeachMexico.jpeg");
-            background-size: 100%;
-            text-align: center;
-            margin: auto;
-            padding-top: 90px;
-            background-repeat: no-repeat;
-        }
-        .home-title {
-            font-size: 75px;
-            color: white;
-        }
-        .home-square {
-            width: 1600px;
-            display: grid;
-            grid-template-rows: 90px 1fr;
-            grid-template-columns: 1fr 1fr;
-            margin-bottom: 20px;
-        }
-        .home-wa {
-            grid-column: 1/2;
-            grid-row: 1/2;
-        }
-        .home-mex {
-            grid-column: 2/3;
-            grid-row: 1/2;
-        }
-        .Port-townsend {
-            width: 80%;
-            grid-row: 2/3;
-            grid-column: 1/2;
-            border: 5px solid #ee8a8f;
-        }
-        .Roatan {
-            width: 80%;
-            grid-row: 2/3;
-            grid-column: 2/3;
-            border: 5px solid #ee8a8f;
-        }
-        .tram {
-            height: 800px;
-            background-image: url("../images/TramWA.jpeg");
-            background-repeat: no-repeat;
-            background-position: center;
-            background-size: 100%;
+        .site-plan {
             text-align: right;
+        }
+        header {
+            padding:0%;
             margin: 0;
         }
-        .tram-ride {
-            font-size: 75px;
-            color: white;
-        } */
-
-        /* @media screen and (max-width: 900px) {
-            #hero, .home-grid {
-                display: block;
-                height: auto;
-            }
-            nav, footer {
-                flex-direction: column;
-            }
-            nav a {
-                display: block;
-                padding: 15px;
-            }
-            #hero {
-                margin-top: 0;
-            }
-            #hero-msg {
-                margin-top: 0;
-            }
-            #hero-msg h4 {
-                display: none;
-            }
-            .home-title {
-                font-size: 25px;
-                color: #6f7364;
-            }
-            /* .rivers-card, .camping-card, .rapids-card { 
-                margin: 50px auto;
-                width: 60%;
-            } 
-            #background {
-                display: none;
-            }
-            .mountains, .msg {
-                width: 80%;
-                display: block;
-                margin: 0 auto;
-            }
-            footer {
-                margin-top: 25px;
-            }
+        img {
+            box-shadow: 10px 10px 5px gray;
         }
 
-     */
+
+
