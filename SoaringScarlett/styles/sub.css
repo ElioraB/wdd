@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto condensed";
+    font-size: 18px;
+  }
+  body > main {
+    padding: 20px;
+    margin: 5em;
+  }
+  body > main > div {
+    margin-bottom: 25px;
+  }
+  div.image-banner {
+    display: grid;
+  }
+  div.image-banner h1 {
+    font-size: 4em;
+    margin: 20px;
+    grid-row: 1;
+    grid-column: 1;
+    text-align: center;
+    color: #4a0a10;
+    padding-top: 150px;
+  }
+  div.image-banner img {
+    grid-row: 1;
+    grid-column: 1;
+    width: 100%;
+  }
+  .vacation-img {
+    width: 100%;
+    box-shadow: 10px 10px 5px gray;
+  }
+  div.split-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 30px;
+  }
+  div.split-div title {
+    display: block;
+    margin-bottom: 0.5em;
+  }
+  div.split-div div.left-side {
+    text-align: right;
+  }
+  div.split-div div.right-side {
+    text-align: left;
+  }
+  .title-div .title {
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+  .text-content {
+    text-align: center;
+    margin: auto 15% auto 15%;
+  }
+  footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #ee8a8f;
+    margin: auto auto auto 0px;
+    padding: 1em;
+    font-size: larger;
+    color: white;
+  }
+  footer div:nth-of-type(2) {
+    text-align: right;
+    margin-right: 20px;
+  }
+  footer div a {
+    color: white;
+    text-decoration: none;
+  }
+  .page-top {
+    background-color: #ee8a8f;
+    height: 126px;
+    padding-left: 20px;
+  }
+  .Logo {
+    grid-column: 1/2;
+    width: 520px;
+    margin-top: 3px;
+    box-shadow: none;
+  }
+  nav {
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    display: grid;
+    grid-template-columns: 520px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 0;
+    height: 100%;
+    align-items: center;
+  }
+  a.home {
+    grid-column: 2/3;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+  }
+  a.mexico {
+    grid-column: 3/4;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+  }
+  a.wa {
+    grid-column: 4/5;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+  }
+  a.contact {
+    grid-column: 5/6;
+    text-decoration: none;
+    align-self: center;
+    color: white;
+  }
+  header {
+    padding: 0%;
+    margin: 0;
+  }
+  img {
+    box-shadow: 10px 10px 5px gray;
+  }
+  
